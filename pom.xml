@@ -8,7 +8,7 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>oguru.springframework.joke</groupId>
+	<groupId>guru.springframework.joke</groupId>
 	<artifactId>jokeapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jokeapp</name>
@@ -38,6 +38,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>guru.springframework</groupId>
+			<artifactId>chuck-norris-for-actuator</artifactId>
+			<version>0.0.2</version>
 		</dependency>
 	</dependencies>
 
